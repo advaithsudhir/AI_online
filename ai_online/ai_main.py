@@ -7,7 +7,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # Mistral API details
-MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY", "IpxcNwe4UN23pNGJtx693EQuivIuq3tb")
+MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY", "YOUR API KEY") # Obtain your api key from mistral ai
 API_URL = "https://api.mistral.ai/v1/chat/completions"
 
 # File for chat history
